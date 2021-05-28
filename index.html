@@ -1,20 +1,357 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Александр Белов. Профессиональный боец ММА.</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Клуб 111 - Вплавь, на велосипеде и бегом</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
-  <div class="info">
-    <picture class="info__photo">
-      <img src="img/punch.jpg" alt="Фото Александра Белова" width="403" height="400">
-    </picture>
-    <h1>Александр Белов</h1>
-    <p class="info__description">Профессиональный боец ММА</p>
-  </div>
+    <header class="pb-5 pt-5 text-light bg-success">
+        <h1 class="container">Клуб 111</h1>
+        <h2 class="container">Вплавь, на велосипеде и бегом</h1>
+    </header>
+
+    <button id="go-top" class="btn btn-info">Наверх</button>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-even">
+        <div class="container">
+            <a class="navbar-brand" href="#">Клуб 111</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#news">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mission">Миссия</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#members">Участники клуба</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#results">Результаты соревнований</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#photo">Фотогалерея</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="news" class="pb-5 pt-5">
+            <div class="container">
+                <h2>Новости</h2>
+                <p>
+                    В связи с ситуацией непреодолимой силы
+                    <span class="text-danger">регистрация на соревнования 9 августа 2020 года закрыта</span>.
+                </p>
+                <!-- <p>
+                    Открыта регистрация на соревнования 9 августа 2020 года
+                    <ul>
+                        <li class="m-4">
+                            регистрация в категории "Личное первенство": <br>
+                            <a
+                                class="btn btn-primary"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLScRiSzWbvRiATWaXQkUjnGxGREJb1hTwDWZNbeFM04kHWQlpQ/viewform"
+                            >
+                                Зарегистрироваться
+                            </a>
+                        </li>
+                        <li class="m-4">
+                            регистрация для команд: <br>
+                            <a
+                                class="btn btn-primary"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSddixucwCmRPeiZm0WPdD-yxZa6Fg9Om8sinJ3KUcIJvQqA4Q/viewform"
+                            >
+                                Зарегистрироваться
+                            </a>                            
+                        </li>
+                        <li class="m-4">
+                            регистрация для детей: <br>
+                            <a
+                                class="btn btn-primary"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSd7e1HHQuuEZegyYyJFka4sbTTZ3GWXAKwBn0c3pnWRZrpQjg/viewform"
+                            >
+                                Зарегистрироваться
+                            </a>
+                        </li>
+                    </ul>
+                </p> -->
+            </div>
+        </section>        
+        <section id="video" class="bg-even pb-5 pt-5">
+            <div class="container">
+                <h2>Приветсвуем Вас</h2>
+                <p>Две минуты о том, что здесь происходит: </p>
+                <p class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                        src="//vk.com/video_ext.php?oid=-48128871&id=456239106&hash=4790b2baf60867da&hd=2" widtd="769"
+                        height="480" frameborder="0" allowfullscreen></iframe>
+                </p>
+            </div>
+        </section>
+        <section id="mission" class="pb-5 pt-5">
+            <div class="container">
+                <h2>Миссия</h2>
+                <h3 class="h4 text-center">
+                    Вместо предисловия
+                </h3>
+                <p>
+                    Мы рады приветствовать вас на сайте «Клуба 111»! Изначально мы планировали рассказать здесь о целях
+                    клуба, пользе спорта и поиске мотивации. Однако все попытки призвать к физическому развитию
+                    неизменно сводились к банальному лозунгу «Занимайтесь спортом
+                    — будете здоровы (веселы/бодры/счастливы)». Поэтому мы решили просто рассказать о том, что двигает
+                    вперед нас.
+                </p>
+                <h3 class="h4 text-center">
+                    Дорогие друзья!
+                </h3>
+                <p>
+                    Мы все о чем-то мечтаем. В детстве — быть сильными, смелыми, выносливыми, красивыми (и не говорите,
+                    что не было такого). С годами мечты остаются все те же, только к ним прибавляется прозаичное желание
+                    найти время для собственного развития. Ссылаясь на
+                    чужие умные мысли, мы начинаем оправдывать свое бездействие отсутствием мотивации. Но если
+                    вдуматься, мотивация никуда не пропала, она с детства по-прежнему с нами. Мы все еще хотим быть
+                    самыми-самыми. Не хватает только стимула — сделать
+                    шаг вперед, научиться управлять временем.
+                </p>
+                <p>
+                    Наш клуб может стать таким стимулом. Здесь вы окажетесь в окружении единомышленников, которые не
+                    дают будничной рутине победить мечту. Здесь не надо бояться выглядеть нелепо на тренировке или
+                    прийти последним на соревнованиях. Каждый участник нашего клуба,
+                    без риска для здоровья и собственного достоинства, бросает вызов себе, чтобы испытать, что значит
+                    быть самым-самым.
+                </p>
+                <p>
+                    Никто не упрекнет вас в спортивной неудаче или скромных показателях. Наша главная победа — над
+                    собой. Мы призываем вас попробовать свои силы и обещаем, что все получится и когда-нибудь вы с
+                    гордостью скажете себе: «Я сделал это!».
+                </p>
+                <p>
+                    Самыми-самыми мы хотим стать и для собственных детей, чтобы воспитать их на своем примере, научить
+                    их смело постигать неизведанное, преодолевать трудности, покорять новые вершины, чтобы когда-нибудь
+                    они стали самыми-самыми уже для своих детей. Спорт —
+                    это часть культуры, которая, как известно, не передается по наследству — ее можно только воспитать.
+                </p>
+                <p>
+                    Закончу свое обращение словами из замечательной книги Джона Кэллоса <a
+                        href="https://drive.google.com/file/d/0B-4SKPIGbDX3OG5GQjg2UUxYajA/view"
+                        target="_blank">«Железный человек есть в каждом»:</a>
+                </p>
+                <p>
+                    <i>
+                        «Большинство таких пребывает в состоянии постоянного стресса. Они нарушают данные себе обещания
+                        и тяготятся чувством вины и стыда, обделяя вниманием друзей и близких и небрежно относятся к
+                        собственному здоровью. Все, кроме работы, откладывается на потом, на завтра — слишком сильна
+                        иллюзия, что «когда-нибудь я сумею остановится., заняться собой, наладить отношения в семье и
+                        начать тренировать малую бейсбольную лигу».
+                        Мне как никому другому хорошо известны эти отговорки: когда-то я не раз успокаивал себя именно
+                        таким образом.
+                        Среди моих знакомых очень много таких людей по всей стране, и я прекрасно понимаю их страхи,
+                        надежды, чувство вины и сожаления. Знаю, что они и дальше, придерживаясь избранного курса, будут
+                        следовать по пути несдержанных обещаний и несбывшихся надежд – до тех пор, пока мир вокруг не
+                        начнут рушиться. Только это сможет заставить их пересмотреть приоритеты и начать действовать, но
+                        пока в их жизни не случится некий серьезный перелом – смена работы, развод или резкое ухудшение
+                        здоровья, они так и будут приносить себя в жертву и копить стресс, мучаясь угрызениями совести и
+                        теряя уважение к себе».
+                    </i>
+                </p>
+                <p>
+                    Полную версию книги читайте <a
+                        href="https://drive.google.com/open?id=0B-4SKPIGbDX3OG5GQjg2UUxYajA">здесь</a>.
+                </p>
+                <p>
+                    Если вы хотите тренироваться регулярно, чтобы поддерживать форму или готовиться к клубным и
+                    региональным соревнованиям, напишите нам, нажав на ссылку: «стать участником клуба», или на
+                    электронную почту <a href="mailto:chernukhin@dtvs.ru">chernukhin@dtvs.ru</a>.
+                </p>
+                <p>
+                    В соответствующих разделах сайта вы сможете ознакомиться с предстоящими мероприятиями (тренировками
+                    и соревнованиями), а так же заранее зарегистрироваться для участия в них. Надеюсь, что <a
+                        href="#photo">фотогалерея</a> и <a href="#video">видеозарисовка</a> из жизни участников клуба
+                    поможет вам
+                    сделать правильный выбор.
+                </p>
+                <p class="text-right">
+                    Фомичев Д.В.
+                </p>
+            </div>
+        </section>
+
+        <section id="members" class="bg-even pb-5 pt-5">
+            <div class="container">
+                <h2>Участники клуба</h2>
+                <p>
+                    Для поддержания физической формы и активного образа жизни инициативные сотрудники коттеджного
+                    посёлка создали «клуб 111» - клуб триатлона.
+                </p>
+                <p class="text-center">
+                    <img class="img-fluid rounded" src="img/club111.jpg" alt="club111" />
+                </p>
+                <p>
+                    Члены клуба являются сотрудниками Технополис GS и регулярно принимают участие в международных
+                    соревнованиях по триатлону. Каждый год в августе на территории посёлка проходит открытый ежегодный
+                    чемпионат по триатлону.
+                </p>
+            </div>
+        </section>
+
+        <section id="results" class="pb-5 pt-5">
+            <div class="container">
+                <h2 class="mb-3">Результаты соревнований</h2>
+                <p>Результаты соревнований "Триатлон Спринт GS" (4 августа 2019):</p>
+                <p><a href="https://drive.google.com/open?id=1FpuABw_-sBgd4r_RTzDsalbJDgsyPT2J"><img
+                            src="img/excel_logo.png" alt="">Детский старт</a></p>
+                <p><a href="https://drive.google.com/open?id=1nK2uarJlPpz1HawvS5l7ui2hIpn3tI4V"><img
+                            src="img/excel_logo.png" alt="">Взрослый старт</a></p>
+            </div>
+        </section>
+
+        <section id="photo" class="bg-even pb-5 pt-5">
+
+            <div class="container">
+                <h2>Фотогалерея</h2>
+            
+                    <div id="buttons" class="filter-btn">
+                        <button class="btn btn-success" data-target="all">Показать все</button>
+                        <button class="btn btn-info" data-target="year2016">2016</button>
+                        <button class="btn btn-info" data-target="year2017">2017</button>
+                        <button class="btn btn-info" data-target="year2018">2018</button>
+                    </div>
+           
+                <div class="row text-center">
+
+                    <div class="col-lg-3 col-md-4 col-6 pb-3 text-box" data-id="year2016">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3SmI1Zk1IWUd3ejQ">
+                            <p class="text-size-wrap">Соревнования 14.08.2016 Триатлон спринт GS</p>
+                            <img class="img-fluid rounded" src="./img/image121.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2016">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3OTlEbGRuSVlBR1E">
+                            <p class="text-size-wrap">Соревнования 19.12.2016 Плаванье в зале</p>
+                            <img class="img-fluid rounded" src="./img/image33.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2016">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3TnBjX0twNURzVUE">
+                            <p class="text-size-wrap">Соревнования 12.11.2016 Триатлон в зале</p>
+                            <img class="img-fluid rounded" src="./img/image00.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2016">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3SVRHNnpxVXNMMmc">
+                            <p class="text-size-wrap">Встреча 25.12.2016 Подведение итогов за 2016 год</p>
+                            <img class="img-fluid rounded" src="./img/itogi.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2017">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3LWw4M21JMXdlUzg">
+                            <p class="text-size-wrap">Соревнование 22.01.2017 Гумбиненский пробег</p>
+                            <img class="img-fluid rounded" src="./img/probeg.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2017">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3WWRMYVU0dTBuMzg">
+                            <p class="text-size-wrap">25.04.2017 Годовщина клуба 111</p>
+                            <img class="img-fluid rounded" src="./img/godovshina_cut.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2017">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3MnpCQUFrdFdYWkE">
+                            <p class="text-size-wrap">Tri Mondi 24.06.2017 Триатлон в Mondi</p>
+                            <img class="img-fluid rounded" src="./img/trimondi.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2017">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3LWhnZEo3azF0TEU">
+                            <p class="text-size-wrap">Goldap 22.07.2017 Триатлон в Goldap</p>
+                            <img class="img-fluid rounded" src="./img/goldap.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2017">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3RmF6cFhOLW4tNVE">
+                            <p class="text-size-wrap">Gdynia 19.08.2017 Триатлон в Gdynia</p>
+                            <img class="img-fluid rounded" src="./img/gdynia.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2017">
+                        <a target="_blank" href="https://drive.google.com/drive/folders/0B-4SKPIGbDX3WDl5Sk83Wlg4ODA">
+                            <p class="text-size-wrap">GS ТЕХНОПОЛИС 13.08.2017 Триатлон спринт GS</p>
+                            <img class="img-fluid rounded" src="./img/sprintGS.jpg">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 text-box" data-id="year2018">
+                        <a target="_blank"
+                            href="https://drive.google.com/drive/folders/1E9q4VJ0CI25VvZAYRmqqxSpWl59NhAka">
+                            <p class="text-size-wrap">Gdynia 19.08.2018 Триатлон в Gdynia</p>
+                            <img class="img-fluid rounded" src="./img/Gdynia_2018.jpg">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pb-5 pt-5 text-light bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    Исходники лежат на <a class="btn-link text-white"
+                        href="https://github.com/VadimCpp/club111-landing"><u>Github</u></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Yandex.Metrika counter -->
+    <!-- <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter50423776 = new Ya.Metrika2({
+                        id:50423776,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script> -->
+    <!-- /Yandex.Metrika counter -->
+    <script src="./js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
