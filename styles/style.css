@@ -59,6 +59,7 @@ body {
   border: none;
   background: transparent;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .header__nav-button::before,
@@ -656,17 +657,62 @@ body {
 }
 
 .video__container {
+  position: relative;
   width: 100%;
-  height: 379px;
+  padding: 20px;
   background: #252525;
 }
 
 @media (min-width: 1200px) {
   .video__container {
     width: 980px;
-    height: 379px;
     margin: 0 auto;
   }
+}
+
+.video__frame-container {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 45%;
+}
+
+.video__frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video__button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.video__button--prev {
+  left: 10%;
+}
+
+.video__button--next {
+  right: 10%;
+}
+
+.video__button img {
+  display: block;
+}
+
+.video__button:hover,
+.video__button:focus {
+  transform: translate(0, -50%) scale(1.1);
 }
 
 .footer {
