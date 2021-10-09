@@ -213,6 +213,7 @@ body {
   display: block;
   width: 100%;
   height: fit-content;
+  max-height: 509px;
   margin: 0 auto;
   overflow: hidden;
   background: linear-gradient(
