@@ -659,8 +659,8 @@ body {
 .video__container {
   position: relative;
   width: 100%;
-  padding: 20px;
   background: #252525;
+  box-sizing: border-box;
 }
 
 @media (min-width: 1200px) {
@@ -672,9 +672,8 @@ body {
 
 .video__frame-container {
   position: relative;
-  width: 70%;
   margin: 0 auto;
-  padding-bottom: 45%;
+  padding-bottom: 56.25%;
 }
 
 .video__frame {
