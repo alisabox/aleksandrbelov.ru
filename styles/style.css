@@ -472,14 +472,21 @@ body {
 
 .train__container {
   position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 113px;
 }
 
 @media (min-width: 768px) {
   .train__container {
     padding: 0 100px;
   }
+  .train__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 113px;
+	}
 }
-
 @media (min-width: 1200px) {
   .train__container {
     display: grid;
