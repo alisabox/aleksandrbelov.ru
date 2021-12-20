@@ -525,6 +525,7 @@ body {
 .train__map {
   height: 100%;
   background-color: grey;
+  z-index: 0;
 }
 
 /* Community section */
